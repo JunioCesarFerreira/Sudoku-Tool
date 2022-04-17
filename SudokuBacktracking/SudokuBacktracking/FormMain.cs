@@ -162,7 +162,7 @@ namespace SudokuBacktracking
                         {
                             if (int.TryParse(values[col], out int tmp))
                             {
-                                matrix[col,row] = tmp;
+                                matrix[row,col] = tmp;
                             }
                             else
                             {
