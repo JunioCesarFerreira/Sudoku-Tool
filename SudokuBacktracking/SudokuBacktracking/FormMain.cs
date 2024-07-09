@@ -47,14 +47,17 @@ namespace SudokuBacktracking
             {
                 listFails.AddRange(tmpList);
             }
+
             if (!Algorithms.CheckRows(boardCoords, out tmpList))
             {
                 listFails.AddRange(tmpList);
             }
+
             if (!Algorithms.CheckCols(boardCoords, out tmpList))
             {
                 listFails.AddRange(tmpList);
             }
+
             if (listFails.Count == 0)
             {
                 for (int row = 0; row < 9; row++)

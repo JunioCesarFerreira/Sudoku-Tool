@@ -121,10 +121,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.Button_Save = new System.Windows.Forms.Button();
+            this.Button_Open = new System.Windows.Forms.Button();
             this.Button_Clear = new System.Windows.Forms.Button();
             this.Button_Run = new System.Windows.Forms.Button();
-            this.Button_Open = new System.Windows.Forms.Button();
-            this.Button_Save = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.sudokuBoard.SuspendLayout();
             this.block_9.SuspendLayout();
@@ -1607,6 +1607,34 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(489, 43);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
+            // Button_Save
+            // 
+            this.Button_Save.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Button_Save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Save.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Save.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Button_Save.Location = new System.Drawing.Point(126, 3);
+            this.Button_Save.Name = "Button_Save";
+            this.Button_Save.Size = new System.Drawing.Size(114, 36);
+            this.Button_Save.TabIndex = 4;
+            this.Button_Save.Text = "Salvar";
+            this.Button_Save.UseVisualStyleBackColor = true;
+            this.Button_Save.Click += new System.EventHandler(this.Button_Save_Click);
+            // 
+            // Button_Open
+            // 
+            this.Button_Open.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Button_Open.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Open.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Open.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Button_Open.Location = new System.Drawing.Point(4, 3);
+            this.Button_Open.Name = "Button_Open";
+            this.Button_Open.Size = new System.Drawing.Size(114, 36);
+            this.Button_Open.TabIndex = 3;
+            this.Button_Open.Text = "Abrir";
+            this.Button_Open.UseVisualStyleBackColor = true;
+            this.Button_Open.Click += new System.EventHandler(this.Button_Open_Click);
+            // 
             // Button_Clear
             // 
             this.Button_Clear.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1617,7 +1645,7 @@
             this.Button_Clear.Name = "Button_Clear";
             this.Button_Clear.Size = new System.Drawing.Size(114, 36);
             this.Button_Clear.TabIndex = 2;
-            this.Button_Clear.Text = "Clear";
+            this.Button_Clear.Text = "Limpar";
             this.Button_Clear.UseVisualStyleBackColor = true;
             this.Button_Clear.Click += new System.EventHandler(this.Button_Clear_Click);
             // 
@@ -1631,37 +1659,9 @@
             this.Button_Run.Name = "Button_Run";
             this.Button_Run.Size = new System.Drawing.Size(114, 36);
             this.Button_Run.TabIndex = 1;
-            this.Button_Run.Text = "Solve";
+            this.Button_Run.Text = "Resolver";
             this.Button_Run.UseVisualStyleBackColor = true;
             this.Button_Run.Click += new System.EventHandler(this.Button_Run_Click);
-            // 
-            // Button_Open
-            // 
-            this.Button_Open.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Button_Open.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button_Open.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button_Open.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.Button_Open.Location = new System.Drawing.Point(4, 3);
-            this.Button_Open.Name = "Button_Open";
-            this.Button_Open.Size = new System.Drawing.Size(114, 36);
-            this.Button_Open.TabIndex = 3;
-            this.Button_Open.Text = "Open";
-            this.Button_Open.UseVisualStyleBackColor = true;
-            this.Button_Open.Click += new System.EventHandler(this.Button_Open_Click);
-            // 
-            // Button_Save
-            // 
-            this.Button_Save.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Button_Save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button_Save.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button_Save.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.Button_Save.Location = new System.Drawing.Point(126, 3);
-            this.Button_Save.Name = "Button_Save";
-            this.Button_Save.Size = new System.Drawing.Size(114, 36);
-            this.Button_Save.TabIndex = 4;
-            this.Button_Save.Text = "Save";
-            this.Button_Save.UseVisualStyleBackColor = true;
-            this.Button_Save.Click += new System.EventHandler(this.Button_Save_Click);
             // 
             // FormMain
             // 

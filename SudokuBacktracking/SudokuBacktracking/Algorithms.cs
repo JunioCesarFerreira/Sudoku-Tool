@@ -55,6 +55,7 @@ namespace SudokuBacktracking
             }
             return msgList.Count == 0;
         }
+
         /// <summary>
         /// Verifica todas linhas em busca de números repetidos.
         /// </summary>
@@ -103,6 +104,7 @@ namespace SudokuBacktracking
             }
             return msgList.Count == 0;
         }
+
         /// <summary>
         /// Verifica todas colunas em busca de números repetidos.
         /// </summary>
@@ -152,6 +154,7 @@ namespace SudokuBacktracking
             if (msgList.Count == 0) return true;
             else return false;
         }
+
         /// <summary>
         /// Verifica se todas regras são satisfeitas.
         /// </summary>
@@ -196,6 +199,7 @@ namespace SudokuBacktracking
             }
             return true;
         }
+
         /// <summary>
         /// Algoritmo de resolução do Sudoku utilizando backtracking 
         /// </summary>

@@ -20,6 +20,7 @@ namespace SudokuBacktracking
             get => GetCoordinate(row, col);
             set => SetCoordinate(row, col, value);
         }
+
         /// <summary>
         /// Acessor por coordenada: (linha, coluna, bloco)
         /// </summary>
