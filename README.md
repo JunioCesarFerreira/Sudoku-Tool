@@ -4,12 +4,16 @@
 O Sudoku-Tool é uma ferramenta desenvolvida para resolver puzzles de Sudoku utilizando o algoritmo de backtracking. Esta aplicação é escrita em C# e utiliza o .NET Framework.
 
 <p align="center">
-  <img src="./print.png">
+  <img src="./resource/print.png">
 </p>
 
 ## Aplicações
 - Criar configurações de Sudoku.
-- Estudar a implementação C#.
+- Estudar a implementação de interfaces em C# com Windows Forms.
+
+<p align="center">
+  <img src="./resource/print.gif">
+</p>
 
 ## Pré-requisitos
 - Visual Studio 2019 ou superior
